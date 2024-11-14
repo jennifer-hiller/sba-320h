@@ -1,8 +1,8 @@
-# React + Vite
+[This app can be viewed on Netlify here](https://nimble-maamoul-fefbf9.netlify.app/)
+This app is dependent on the Pokedex API. I decided to just show Pokemon and a few general stats.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To install, run `npm i` and then to run, `npm run dev`.
 
-Currently, two official plugins are available:
+One of the problems I ran into was going back to the index page. I would rather the user end up in the same part of the list they started out on before clicking on a name.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Another problem was that the Pokemon API does not return IDs, just URLs of the next way to go in their API. This is not how I would design an API but I can understand why they did it this way.
